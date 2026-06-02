@@ -40,7 +40,8 @@ public class SecurityConfig {
                         .requestMatchers("/api/perfumes/**").permitAll()
                         .requestMatchers("/api/orders/**").authenticated()
                         .requestMatchers("/api/payment/**").authenticated()
-                        .anyRequest().authenticated()
+                        .requestMatchers("/", "/index.html", "/favicon.ico").permitAll()
+.anyRequest().authenticated()
                 )
                 .addFilterBefore(new JwtFilter(jwtUtil, userDetailsService),
                         UsernamePasswordAuthenticationFilter.class);
