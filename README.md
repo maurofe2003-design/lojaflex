@@ -167,13 +167,8 @@ Por padrão, o projeto usa **H2** (banco em memória), ideal para desenvolviment
 
 ---
 
-## 👤 Autor
 
-Desenvolvido por **Mauro Fernando** como projeto de estudo e prática de desenvolvimento web full stack.
 
-[GitHub](https://github.com/maurofe2003-design) 
-
----
 
 ## 📄 Licença
 
